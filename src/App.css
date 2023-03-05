@@ -3,6 +3,15 @@
     padding: 0;
 }
 .app{
+    height: 100vh;
     display: flex;
     flex-direction: column;
+}
+.main{
+    padding-top: 5rem;
+}
+.form input[type=number]::-webkit-inner-spin-button, 
+.form input[type=number]::-webkit-outer-spin-button { 
+ -webkit-appearance: none; 
+ margin: 0; 
 }
